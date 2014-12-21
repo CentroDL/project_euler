@@ -13,5 +13,5 @@ def euler_sum(num)
   sum
 end
 
-puts euler_sum(10) #23
-puts euler_sum(1000) # 233168
+puts euler_sum(10) #23 1-9
+puts euler_sum(1000) # 233168  #1-999
