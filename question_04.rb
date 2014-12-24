@@ -7,9 +7,10 @@ def three_dig_product(x)
     (100..x).each do |z|
       prod = z * y
       if prod.to_s.reverse == prod.to_s
-        puts 'palindrome found'
+        # puts 'palindrome found'
         palindromes.push prod
       end
+      # binding.pry if prod == 906609
     end
   end
     # binding.pry
